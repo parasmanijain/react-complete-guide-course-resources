@@ -10,13 +10,11 @@
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-redux": "^9.2.0",
-    "react-scripts": "^5.0.1",
     "web-vitals": "^5.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-   "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "start": "vite --host",
+    "build": "vite build"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +33,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^4.2.2",
+    "vite": "^7.3.1",
+    "vite-plugin-svgr": "^4.5.0",
+    "vite-tsconfig-paths": "^6.0.4"
   }
 }
