@@ -1,11 +1,11 @@
 import fs from 'node:fs/promises';
 
 import bodyParser from 'body-parser';
-import express from 'express';
+import express, { json } from "express";
 
 const app = express();
 
-app.use(bodyParser.json());
+app.use(json());
 app.use(express.static('public'));
 
 app.use((req, res, next) => {
