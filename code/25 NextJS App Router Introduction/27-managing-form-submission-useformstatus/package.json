@@ -17,7 +17,7 @@
     "xss": "^1.0.15"
   },
   "devDependencies": {
-    "eslint": "^9",
+    "eslint": "^9.39.2",
     "eslint-config-next": "16.1.6"
   }
 }
