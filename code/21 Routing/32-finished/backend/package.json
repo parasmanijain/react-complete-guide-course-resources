@@ -12,5 +12,6 @@
   "dependencies": {
     "express": "^5.2.1",
     "uuid": "^13.0.0"
-  }
+  },
+  "packageManager": "pnpm@10.29.3"
 }
