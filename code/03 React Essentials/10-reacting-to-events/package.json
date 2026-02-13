@@ -15,5 +15,6 @@
     "vite": "^7.3.1"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "packageManager": "pnpm@10.29.3"
 }
