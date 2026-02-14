@@ -15,5 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.9.3"
-  }
+  },
+  "packageManager": "pnpm@10.29.3"
 }

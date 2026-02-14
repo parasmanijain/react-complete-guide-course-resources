@@ -42,5 +42,6 @@
     "setupFilesAfterEnv": [
       "./src/setupTests.js"
     ]
-  }
+  },
+  "packageManager": "pnpm@10.29.3"
 }
